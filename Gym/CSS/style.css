@@ -1,0 +1,103 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: 'Baloo Tamma 2', cursive;
+    background-image: url("abs-1850926_1280.jpg");
+    background-repeat: no-repeat;
+    height: 1000px;
+    background-size: cover;
+}
+
+.left {
+    position: absolute;
+    left: 34px;
+    top: 18px;
+    display: inline-block;
+    /* border: 2px solid red; */
+}
+.left img{
+    width: 190px;
+    height: 100px;
+    /* filter: invert(100%); */
+    /* padding: 25px 45px; */
+    border-radius: 50%;
+}
+.left div{
+    font-style: oblique;
+    font-size: 25px;
+    text-align: center;
+    color: cornsilk;
+    line-height: 8px;
+    
+}
+.mid {
+    display: block;
+    width: 33%;
+    margin: 57px auto;
+    /* border: 2px solid green; */
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 38px;
+    display: inline-block;
+    /* border: 2px solid orange; */
+}
+.mid li{
+    display: inline;
+    margin: 5px;
+    padding: 5px;
+}
+.mid a{
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+.mid li a:hover,.mid li a.active{
+    text-decoration: underline;
+    color: gray;
+}
+.btn{
+    margin: 18px 6px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    /* border: 4px rgb(231, 231, 231); */
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #606032;
+}
+.container{
+    border: 2px solid white;
+    margin: 100px auto;
+    padding: 52px;
+    width: 33%;
+    font-family: 'Baloo Tamma 2', cursive;
+    border-radius: 22px;
+}
+.container h1{
+    text-align: center;
+    color: rgb(255, 214, 160);
+}
+.container button{
+    display: block;
+    width: 33%;
+    margin: 20px auto;
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    font-family: 'Baloo Tamma 2', cursive;
+    width: 508px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 3px auto;
+    font-size: 15px;
+    border-radius: 8px;
+}
